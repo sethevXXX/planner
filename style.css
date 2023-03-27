@@ -38,6 +38,10 @@ section
 
     border: solid rgb(175, 175, 175) 1px;
 }
+section::-webkit-scrollbar 
+{
+    width: 0;
+}
 .day
 {
     display: flex;
