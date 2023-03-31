@@ -86,6 +86,10 @@ section::-webkit-scrollbar
 
     border: solid rgb(175, 175, 175) 1px;
 }
+.time
+{
+    position: absolute;
+}
 .plan
 {
     position: relative;
