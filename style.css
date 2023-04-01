@@ -46,11 +46,19 @@ section::-webkit-scrollbar
 {
     display: flex;
     justify-content: center;
-    align-items: center;
     float: left;
-    
+
+    position: relative;
+
     width: 5.5%;
     height: 100%;
+}
+.icon-calendar-inv
+{
+    position: absolute;
+    top: 5%;
+
+    font-size: 170%;
 }
 #hours
 {
