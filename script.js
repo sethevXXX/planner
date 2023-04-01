@@ -23,6 +23,15 @@ function hours()
         }
     }
 }
+function note(dayNumber, color, start, end)
+{
+    let name = document.createElement("div")
+    document.getElementsByClassName("plan")[dayNumber].appendChild(name)
+    name.className = "note"
+    name.style.backgroundColor = color
+    name.style.top = start * 100 / 24 + 0.5 + "%"
+    name.style.height = (end - start) * 100 / 24 + "%"
+}
 function start()
 {
     
