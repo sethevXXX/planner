@@ -109,6 +109,10 @@ section::-webkit-scrollbar
     
     background-color: rgb(16, 16, 16);
 }
+.plan:hover
+{
+    background-color: rgb(10, 10, 10);
+}
 .hourLines
 {
     position: absolute;
