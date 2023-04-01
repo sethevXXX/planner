@@ -51,6 +51,14 @@ section::-webkit-scrollbar
     width: 5.5%;
     height: 100%;
 }
+.icon-calendar-inv
+{
+    position: absolute;
+    top: 5%;
+
+    color: rgb(175, 175, 175);
+    font-size: 170%;
+}
 #hours
 {
     position: relative;
