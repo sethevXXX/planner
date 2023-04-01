@@ -35,8 +35,6 @@ section
 
     overflow-x: hidden;
     overflow-y: auto;
-
-    border: solid rgb(175, 175, 175) 1px;
 }
 section::-webkit-scrollbar 
 {
@@ -53,13 +51,6 @@ section::-webkit-scrollbar
     width: 5.5%;
     height: 100%;
 }
-.icon-calendar-inv
-{
-    position: absolute;
-    top: 5%;
-
-    font-size: 170%;
-}
 #hours
 {
     position: relative;
@@ -71,7 +62,6 @@ section::-webkit-scrollbar
     
     width: 5.5%;
     height: 200%;
-
 }
 .day
 {
@@ -81,7 +71,8 @@ section::-webkit-scrollbar
 
     width: 13.5%;
 
-    border: solid rgb(175, 175, 175) 1px;
+    border: solid black 2px;
+    border-radius: 5px;
 }
 .dayName
 {
@@ -92,7 +83,7 @@ section::-webkit-scrollbar
     font-weight: bold;
     font-size: 2vmin;
 
-    border: solid rgb(175, 175, 175) 1px;
+    background-color: #009999; 
 }
 .time
 {
@@ -103,14 +94,16 @@ section::-webkit-scrollbar
     position: relative;
 
     height: 200%;
+    
+    background-color: rgb(16, 16, 16);
 }
 .hourLines
 {
     position: absolute;
 
-    width: 80%;
+    width: 94%;
     height: 1px;
 
-    background-color: rgb(89, 89, 89);
+    background-color: rgb(100, 100, 100);
     border-radius: 5px;
 }
