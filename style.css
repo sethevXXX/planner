@@ -59,6 +59,10 @@ section::-webkit-scrollbar
     color: rgb(175, 175, 175);
     font-size: 170%;
 }
+.icon-calendar-inv:hover
+{
+    color: rgb(230, 230, 230);
+}
 #hours
 {
     position: relative;
