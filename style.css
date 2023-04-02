@@ -125,15 +125,20 @@ section::-webkit-scrollbar
 }
 .side
 {
+    display: flex;
+    align-items: center;
+
     top: 2%;
-    right: 0;
+    right: -90px;
 
-    position: absolute;
+    position: fixed;
+    transition: 0.5s;
 
-    width: 30px;
+    width: 120px;
     height: 3%;
 
     background-color: #8800cc;
+    border-radius: 5px 0 0 5px;
 }
 .note
 {
