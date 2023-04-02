@@ -5,9 +5,10 @@
     box-sizing: border-box;
     
     text-align: center;
-    background-color: black;
     color: white;
     font-family: calibri light;
+
+    user-select: none;
 }
 html, body, main
 {
@@ -17,6 +18,10 @@ html, body, main
 
     width: 100vw;
     height: 100vh;
+
+    background-color: black;
+
+    overflow: hidden;
 }
 #calendar
 {
@@ -54,7 +59,7 @@ section::-webkit-scrollbar
 .icon-calendar-inv
 {
     position: absolute;
-    top: 5%;
+    top: 3%;
 
     color: rgb(175, 175, 175);
     font-size: 170%;
@@ -95,7 +100,7 @@ section::-webkit-scrollbar
     font-weight: bold;
     font-size: 2vmin;
 
-    background-color: #009999; 
+    background-color: #009999;
 }
 .time
 {
@@ -139,6 +144,21 @@ section::-webkit-scrollbar
 
     background-color: #8800cc;
     border-radius: 5px 0 0 5px;
+}
+.side:hover
+{
+    right: 0;
+}
+.icon-login
+{
+    font-size: 125%;
+}
+span
+{
+    width: 90px;
+
+    font-style: normal;
+    font-weight: bold;
 }
 .note
 {
