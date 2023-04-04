@@ -34,7 +34,7 @@ function note(dayNumber, color, start, end)
 }
 function start()
 {
-    
     hours()
+    //note(2,"#66ccff",12,14)
 
 }
