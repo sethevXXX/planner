@@ -30,7 +30,7 @@
                 <div class = "inputBox">
                     <input type = "password" name = "password" placeholder = " password" required />
                 </div>
-                <input type = "submit" id = "loginButton" value="login"/>
+                <input type = "submit" id = "loginButton" value = "login"/>
             </form>
 
             <div id = "margin"></div>

@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     require_once "connect.php";
 
     $connection = new mysqli($host, $dbUser, $dbPassword, $dbName);
@@ -14,11 +14,13 @@
     $SQL = "SELECT * FROM login WHERE username = '$username' and password = '$password'";  
     if ($result = $connection -> query($SQL))
     {
-        echo $result -> num_rows;
+        // echo $result -> num_rows;
         $row = $result -> fetch_assoc(); 
-        echo $row['username'];
+        // echo $row['username'];
 
         $result -> free();
+
+        header("Location: planner.php");
     }  
         
     
