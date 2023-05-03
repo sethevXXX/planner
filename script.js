@@ -23,7 +23,7 @@ function hours()
         }
     }
 }
-function note(dayNumber, color, start, end)
+function add(dayNumber, color, start, end)
 {
     let name = document.createElement("div")
     document.getElementsByClassName("plan")[dayNumber].appendChild(name)
@@ -35,6 +35,4 @@ function note(dayNumber, color, start, end)
 function start()
 {
     hours()
-    //note(2,"#66ccff",12,14)
-
 }

@@ -9,6 +9,7 @@
     <link rel = "short icon" href = "https://cdn-icons-png.flaticon.com/512/3874/3874060.png">
     <link rel = "stylesheet" href = "style.css">
     <link rel = "stylesheet" href = "fontello/css/fontello.css" type = "text/css" />
+
     <script type = "text/javascript" src = "script.js"></script>
 
 </head>
@@ -43,9 +44,37 @@
 
     </main>
 
-    <div class = "side">
-        <i class = "icon-login"></i>
-        <span>LOG IN</span>
+    <div id = "login" class = "side">
+        <span>
+            <i class = "icon-login"></i>
+        </span>
+        <span onclick = "login()">
+            LOG IN
+        </span>
+    </div>
+    <div id = "note" class = "side">
+        <span>
+            <i class = "icon-doc-text-inv"></i>
+        </span>
+        <span onclick = "add(2,'#66ccff',2,4)">
+            NOTE
+        </span>
+    </div>
+    <div id = "daily" class = "side">
+        <span>
+            <i class = "icon-ok-circled"></i>
+        </span>
+        <span>
+            DAILY
+        </span>
+    </div>
+    <div id = "todo" class = "side">
+        <span>
+            <i class = "icon-th-list"></i>
+        </span>
+        <span>
+            TO-DO
+        </span>
     </div>
 
 </body>

@@ -9,9 +9,8 @@
     <link rel = "short icon" href = "https://cdn-icons-png.flaticon.com/512/3874/3874060.png">
     <link rel = "stylesheet" href = "login_style.css">
     <link rel = "stylesheet" href = "fontello/css/fontello.css" type = "text/css" />
-    <link rel = "stylesheet" href = "fontello2/css/fontello.css" type = "text/css" />
 
-    <script type = "text/javascript" src = "script.js"></script>
+    <script type = "text/javascript" src = "login_script.js"></script>
 
 </head>
 <body>
@@ -20,18 +19,23 @@
         
         <section>
 
-            <header> Login </header>
-            
-            <form action = "">
-                <div class = "intputBox">
-                    <input type = "text" required>
-                    <label> username </label>
+            <header>
+                <i class = " icon-user-circle"></i>
+            </header>
+
+            <form action = "authentication.php" method = "POST">
+                <div class = "inputBox">
+                    <input type = "text" name = "username" placeholder = " username" spellcheck = "false" required>
                 </div>
-                <div class = "intputBox">
-                    <input type = "password" required>
-                    <label> password </label>
+                <div class = "inputBox">
+                    <input type = "password" name = "password" placeholder = " password" required>
                 </div>
+                <button id = "loginButton">
+                    login
+                </button>
             </form>
+
+            <div id = "margin"></div>
 
         </section>
 

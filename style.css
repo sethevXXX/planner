@@ -40,8 +40,6 @@ section
 
     overflow-x: hidden;
     overflow-y: auto;
-
-    /* cursor: grab; */
 }
 section::-webkit-scrollbar 
 {
@@ -64,7 +62,7 @@ section::-webkit-scrollbar
     top: 3%;
 
     color: rgb(175, 175, 175);
-    font-size: 170%;
+    font-size: 2.5vmin;
 }
 .icon-calendar-inv:hover
 {
@@ -80,7 +78,9 @@ section::-webkit-scrollbar
     overflow-y: auto;
     
     width: 5.5%;
-    height: 1800px;
+    height: 1600px;
+
+    font-size: 1.5vmin;
 }
 .day
 {
@@ -112,7 +112,7 @@ section::-webkit-scrollbar
 {
     position: relative;
 
-    height: 1800px;
+    height: 1600px;
     
     background-color: rgb(16, 16, 16);
 }
@@ -135,7 +135,6 @@ section::-webkit-scrollbar
     display: flex;
     align-items: center;
 
-    top: 2%;
     right: -90px;
 
     position: fixed;
@@ -144,7 +143,7 @@ section::-webkit-scrollbar
     width: 120px;
     height: 3%;
 
-    background-color: #8800cc;
+    background-color: #8a109f;
     border-radius: 5px 0 0 5px;
 }
 .side:hover
@@ -153,14 +152,37 @@ section::-webkit-scrollbar
     
     transition: 1s;
 }
-.icon-login
+.side > span:first-of-type
 {
-    font-size: 125%;
+    left: 0;
+
+    width: 30px;
 }
-span
+.side > span > i
+{
+    font-size: 1.5vmin;
+}
+#login
+{
+    top: 2%;
+}
+#note
+{
+    top: 8%;
+}
+#daily
+{
+    top: 14%;
+}
+#todo
+{
+    top: 20%;
+}
+.side > span:last-of-type
 {
     width: 90px;
-
+    
+    font-size: 1.5vmin;
     font-style: normal;
     font-weight: bold;
 }
@@ -172,3 +194,6 @@ span
 
     border-radius: 5px;
 }
+
+
+
