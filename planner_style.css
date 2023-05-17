@@ -130,9 +130,19 @@ section::-webkit-scrollbar
     background-color: rgb(100, 100, 100);
     border-radius: 5px;
 }
-.side
+#sideBox
 {
     display: flex;
+    flex-direction: column;
+
+    top: 0;
+    right: 0;
+
+    background-color: #009999;
+}
+.side
+{
+    /* display: flex;
     align-items: center;
 
     right: -90px;
@@ -141,18 +151,18 @@ section::-webkit-scrollbar
     transition: 1s;
 
     width: 120px;
-    height: 3%;
+    height: 3%; */
 
     background-color: #8a109f;
     border-radius: 5px 0 0 5px;
 }
-.side:hover
+/* .side:hover
 {
     right: 0;
     
     transition: 0.5s;
-}
-.side > span:first-of-type
+} */
+/* .side > span:first-of-type
 {
     left: 0;
 
@@ -165,8 +175,8 @@ section::-webkit-scrollbar
     font-size: 1.5vmin;
     font-style: normal;
     font-weight: bold;
-}
-.side > span > i
+} */
+/* .side > i
 {
     font-size: 1.5vmin;
 }
@@ -185,7 +195,7 @@ section::-webkit-scrollbar
 #todo
 {
     top: 20%;
-}
+} */
 .note
 {
     position: absolute;

@@ -95,7 +95,7 @@ form
 .inputBox input::placeholder
 {
     color: white;
-    font-weight: bold;
+    font-weight: normal;
 }
 #loginButton
 {

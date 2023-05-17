@@ -48,37 +48,19 @@
 
     </main>
 
-    <div id = "logOut" class = "side">
-        <span>
-            <i class = "icon-logout"></i>
-        </span>
-        <span onclick = "logout()">
-            LOG OUT
-        </span>
-    </div>
-    <div id = "note" class = "side">
-        <span>
-            <i class = "icon-doc-text-inv"></i>
-        </span>
-        <span onclick = "add(2,'#66ccff',2,4)">
-            NOTE
-        </span>
-    </div>
-    <div id = "daily" class = "side">
-        <span>
-            <i class = "icon-ok-circled"></i>
-        </span>
-        <span>
-            DAILY
-        </span>
-    </div>
-    <div id = "todo" class = "side">
-        <span>
-            <i class = "icon-th-list"></i>
-        </span>
-        <span>
-            TO-DO
-        </span>
+    <div id = "sideBox">
+        <div id = "logOut" class = "side">
+            <i class = "icon-logout"></i> LOG OUT
+        </div>
+        <div id = "note" class = "side">
+            <i class = "icon-doc-text-inv"></i> NOTE
+        </div>
+        <div id = "daily" class = "side">
+            <i class = "icon-ok-circled"></i> DAILY
+        </div>
+        <div id = "todo" class = "side">
+            <i class = "icon-th-list"></i> TO-DO
+        </div>
     </div>
 
 </body>
