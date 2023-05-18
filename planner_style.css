@@ -142,27 +142,27 @@ section::-webkit-scrollbar
 }
 .side
 {
-    /* display: flex;
+    display: flex;
     align-items: center;
 
-    right: -90px;
+    right: -100px;
 
     position: fixed;
     transition: 1s;
 
     width: 120px;
-    height: 3%; */
+    height: 3%;
 
     background-color: #8a109f;
     border-radius: 5px 0 0 5px;
 }
-/* .side:hover
+.side:hover
 {
     right: 0;
     
     transition: 0.5s;
-} */
-/* .side > span:first-of-type
+}
+.side > span:first-of-type
 {
     left: 0;
 
@@ -175,8 +175,8 @@ section::-webkit-scrollbar
     font-size: 1.5vmin;
     font-style: normal;
     font-weight: bold;
-} */
-/* .side > i
+}
+.side > i
 {
     font-size: 1.5vmin;
 }
@@ -195,7 +195,7 @@ section::-webkit-scrollbar
 #todo
 {
     top: 20%;
-} */
+}
 .note
 {
     position: absolute;

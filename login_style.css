@@ -122,6 +122,26 @@ form
     transform: translate(2px, 3px);
     box-shadow: 0 0;
 }
+#signUp
+{
+    position: absolute;
+
+    top: 78%;
+    
+    width: 40%;
+    height: 4%;
+
+    font-size: 1.3vh;
+    color: #A0BFFF;
+    font-weight: bold;
+
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 3px #607AAA;
+
+    user-select: none;
+}
 .line
 {
     width: 95%;

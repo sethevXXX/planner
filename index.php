@@ -33,6 +33,8 @@
                 <input type = "submit" id = "loginButton" value = "login"/>
             </form>
 
+            <button id = "signUp" onclick = "signUp()">sign up</button>
+            
             <div id = "margin"></div>
 
         </section>
