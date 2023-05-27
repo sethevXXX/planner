@@ -136,46 +136,62 @@ section::-webkit-scrollbar
 }
 #sideBox
 {
-    /* flex-direction: column; */
-    top: 2%;
-    right: 0;
     position: absolute;
+    
+    top: 1%;
+    right: 0%;
 
-    width: 13%;
+    width: 12%;
 }
 .side
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
 
     position: relative;
-    right: -75%;
+    right: -80%;
 
+    height: 3vh;
     width: 100%;
-    aspect-ratio: 4 / 1;
 
     font-weight: bold;
+
+    margin-top: 15%;
     background-color: olive;
     /* background-color: #8a109f; */
     border-radius: 5px 0 0 5px;
 
-    margin-top: 15%;
-
     transition: 1s;
-}
-.side > i
-{
-    position: absolute;
-    left: 5%;
-
-    font-size: 1.5vh;
 }
 .side:hover
 {
     right: 0;
     
     transition: 0.5s;
+}
+.side > i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    width: 20%;
+    height: 100%;
+
+    font-size: 1.5vh;
+}
+.side > span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    right: 0;
+
+    width: 80%;
+    height: 100%;
 }
 .note
 {
