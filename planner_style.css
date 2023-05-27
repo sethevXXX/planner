@@ -12,16 +12,18 @@
 }
 html, body, main
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     width: 100vw;
     height: 100vh;
 
     background-color: black;
 
     overflow: hidden;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #calendar
 {
@@ -61,13 +63,14 @@ section::-webkit-scrollbar
     position: absolute;
     top: 3%;
 
-    color: rgb(175, 175, 175);
+    color: rgb(235, 235, 235);
+    /* color: rgb(175, 175, 175); */
     font-size: 2.5vmin;
 }
-.icon-calendar-inv:hover
+/* .icon-calendar-inv:hover
 {
     color: rgb(230, 230, 230);
-}
+} */
 #hours
 {
     position: relative;
@@ -102,7 +105,8 @@ section::-webkit-scrollbar
     font-weight: bold;
     font-size: 2vmin;
 
-    background-color: #009999;
+    background-color: rgb(100, 0, 0);
+    /* background-color: #009999; */
 }
 .time
 {
@@ -132,69 +136,46 @@ section::-webkit-scrollbar
 }
 #sideBox
 {
-    display: flex;
-    flex-direction: column;
-
-    top: 0;
+    /* flex-direction: column; */
+    top: 2%;
     right: 0;
+    position: absolute;
 
-    background-color: #009999;
+    width: 13%;
 }
 .side
 {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    right: -100px;
+    position: relative;
+    right: -75%;
 
-    position: fixed;
-    transition: 1s;
+    width: 100%;
+    aspect-ratio: 4 / 1;
 
-    width: 120px;
-    height: 3%;
-
-    background-color: #8a109f;
+    font-weight: bold;
+    background-color: olive;
+    /* background-color: #8a109f; */
     border-radius: 5px 0 0 5px;
+
+    margin-top: 15%;
+
+    transition: 1s;
+}
+.side > i
+{
+    position: absolute;
+    left: 5%;
+
+    font-size: 1.5vh;
 }
 .side:hover
 {
     right: 0;
     
     transition: 0.5s;
-}
-.side > span:first-of-type
-{
-    left: 0;
-
-    width: 30px;
-}
-.side > span:last-of-type
-{
-    width: 90px;
-    
-    font-size: 1.5vmin;
-    font-style: normal;
-    font-weight: bold;
-}
-.side > i
-{
-    font-size: 1.5vmin;
-}
-#logOut
-{
-    top: 2%;
-}
-#note
-{
-    top: 8%;
-}
-#daily
-{
-    top: 14%;
-}
-#todo
-{
-    top: 20%;
 }
 .note
 {
@@ -204,6 +185,3 @@ section::-webkit-scrollbar
 
     border-radius: 5px;
 }
-
-
-
