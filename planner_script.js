@@ -1,9 +1,40 @@
-window.onload = function(){start()}
+window.onload = function() { start() }
 
-function logout()
+const cal = document.getElementsByTagName('section')[0]
+let pos = { top: 0, left: 0, x: 0, y: 0 }
+
+const mouseDownHandler = function (e) 
 {
-    
+    pos = { left: cal.scrollLeft, top: cal.scrollTop, x: e.clientX, y: e.clientY }
+
+    document.addEventListener('mousemove', mouseMoveHandler)
+    document.addEventListener('mouseup', mouseUpHandler)
+
+    cal.style.cursor = 'grabbing'
+    cal.style.userSelect = 'none'
 }
+const mouseMoveHandler = function (e) 
+{
+    const dx = e.clientX - pos.x
+    const dy = e.clientY - pos.y
+  
+    cal.scrollTop = pos.top - dy
+    cal.scrollLeft = pos.left - dx
+}
+const mouseUpHandler = function () 
+{
+    document.removeEventListener('mousemove', mouseMoveHandler)
+    document.removeEventListener('mouseup', mouseUpHandler)
+  
+    cal.style.cursor = 'grab'
+    cal.style.removeProperty('user-select')
+}
+
+cal.addEventListener('mousedown', mouseDownHandler)
+
+
+// function logout() {}
+
 function hours()
 {
     let time, line
@@ -40,3 +71,4 @@ function start()
 {
     hours()
 }
+

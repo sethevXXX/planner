@@ -8,7 +8,7 @@
     color: white;
     font-family: calibri light;
 
-    user-select: none;
+    /* user-select: none; */
 }
 html, body, main
 {
@@ -192,6 +192,8 @@ section::-webkit-scrollbar
 
     width: 80%;
     height: 100%;
+
+    font-size: 1.5vh;
 }
 .note
 {
