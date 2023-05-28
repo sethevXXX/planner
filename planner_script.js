@@ -54,7 +54,7 @@ function hours()
             line = document.createElement("div")
             document.getElementsByClassName("plan")[i].appendChild(line)
             line.className = "hourLines"
-            line.style.top = j * 100 / 24 + 0.5 + "%"
+            line.style.top = j * 100 / 24 + 0.2 + "%"
         }
     }
 }

@@ -4,20 +4,19 @@
     margin: 0;
     box-sizing: border-box;
     
-    text-align: center;
-    color: white;
     font-family: calibri light;
+    color: white;
 
-    /* user-select: none; */
+    user-select: none;
 }
 html, body, main
 {
     width: 100vw;
     height: 100vh;
 
-    background-color: black;
-
     overflow: hidden;
+
+    background-color: black;
 }
 main
 {
@@ -28,7 +27,7 @@ main
 #calendar
 {
     width: 80%;
-    height: 90%;
+    height: 92%;
 }
 header
 {
@@ -49,11 +48,12 @@ section::-webkit-scrollbar
 }
 #week
 {
+    position: relative;
+
     display: flex;
     justify-content: center;
+    align-items: center;
     float: left;
-
-    position: relative;
 
     width: 5.5%;
     height: 100%;
@@ -61,16 +61,14 @@ section::-webkit-scrollbar
 .icon-calendar-inv
 {
     position: absolute;
-    top: 3%;
 
-    color: rgb(235, 235, 235);
-    /* color: rgb(175, 175, 175); */
     font-size: 2.5vmin;
+    color: rgb(225, 225, 225);
 }
-/* .icon-calendar-inv:hover
+.icon-calendar-inv:hover
 {
-    color: rgb(230, 230, 230);
-} */
+    color: white;
+}
 #hours
 {
     position: relative;
@@ -78,10 +76,11 @@ section::-webkit-scrollbar
     display: flex;
     justify-content: center;
     float: left;
+
     overflow-y: auto;
     
     width: 5.5%;
-    height: 1600px;
+    height: 2000px;
 
     font-size: 1.5vmin;
 }
@@ -116,7 +115,7 @@ section::-webkit-scrollbar
 {
     position: relative;
 
-    height: 1600px;
+    height: 2000px;
     
     background-color: rgb(16, 16, 16);
 }
@@ -139,15 +138,16 @@ section::-webkit-scrollbar
     position: absolute;
     
     top: 1%;
-    right: 0%;
+    right: 0;
 
     width: 12%;
 }
 .side
 {
+    position: relative;
+    
     display: flex;
 
-    position: relative;
     right: -80%;
 
     height: 3vh;
@@ -170,30 +170,31 @@ section::-webkit-scrollbar
 }
 .side > i
 {
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
-
-    position: relative;
 
     width: 20%;
     height: 100%;
 
-    font-size: 1.5vh;
+    font-size: 1.75vmin;
 }
 .side > span
 {
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    position: relative;
     right: 0;
 
     width: 80%;
     height: 100%;
 
-    font-size: 1.5vh;
+    font-size: 1.5vmin;
 }
 .note
 {
