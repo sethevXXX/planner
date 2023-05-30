@@ -10,8 +10,6 @@
     <link rel = "stylesheet" href = "login_style.css">
     <link rel = "stylesheet" href = "fontello/css/fontello.css" type = "text/css" />
 
-    <script type = "text/javascript" src = "login_script.js"></script>
-
 </head>
 <body>
     
@@ -42,6 +40,8 @@
     </main>
 
     
+
+    <script type = "text/javascript" src = "login_script.js"></script>
 
 </body>
 </html>
