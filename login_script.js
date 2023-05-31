@@ -20,15 +20,6 @@ function dots()
         dot.className = "dot"
     }
 }
-// function signUp()
-// {
-//     document.getElementsByTagName("section")[0].style.backgroundColor = "#81C2B5"
-//     document.getElementsByTagName("input")[0].style.backgroundColor = "#81C2B5"
-//     document.getElementsByTagName("input")[1].style.backgroundColor = "#81C2B5"
-//     document.getElementById("loginButton").value = "sign up"
-//     document.getElementById("loginButton").style.color = "#81C2B5"
-//     document.getElementById("signUp").hidden = "hidden"
-// }
 function start()
 {
     lines()
