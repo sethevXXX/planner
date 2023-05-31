@@ -104,7 +104,7 @@ section::-webkit-scrollbar
     font-weight: bold;
     font-size: 2vmin;
 
-    background-color: rgb(100, 0, 0);
+    background-color: #581845;
     /* background-color: #009999; */
 }
 .time
@@ -156,7 +156,7 @@ section::-webkit-scrollbar
     font-weight: bold;
 
     margin-top: 15%;
-    background-color: olive;
+    background-color: #696900;
     /* background-color: #8a109f; */
     border-radius: 5px 0 0 5px;
 
@@ -179,7 +179,7 @@ section::-webkit-scrollbar
     width: 20%;
     height: 100%;
 
-    font-size: 1.75vmin;
+    font-size: 1.65vmin;
 }
 .side > span
 {

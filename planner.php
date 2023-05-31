@@ -50,21 +50,25 @@
 
     <div id = "sideBox">
 
-        <div id = "logOut" class = "side">
-            <i class = "icon-logout"></i>
-            <span>LOG OUT</span>
+        <div class = "side">
+            <i class = "icon-user-circle-o"></i>
+            <span>ACCOUNT</span>
         </div>
-        <div id = "note" class = "side">
+        <div class = "side">
             <i class = "icon-doc-text-inv"></i> 
             <span>NOTE</span>
         </div>
-        <div id = "daily" class = "side">
+        <div class = "side">
             <i class = "icon-ok-circled"></i> 
             <span>DAILY</span>
         </div>
-        <div id = "todo" class = "side">
+        <div class = "side">
             <i class = "icon-th-list"></i> 
             <span>TO-DO</span>
+        </div>
+        <div class = "side">
+            <i class = "icon-logout"></i>
+            <span>LOG OUT</span>
         </div>
 
     </div>

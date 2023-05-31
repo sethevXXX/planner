@@ -33,10 +33,6 @@ const mouseUpHandler = function ()
 cal.addEventListener('mousedown', mouseDownHandler)
 
 
-function logout() 
-{
-    
-}
 function hours()
 {
     let time, line
