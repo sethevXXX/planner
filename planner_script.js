@@ -29,9 +29,7 @@ const mouseUpHandler = function ()
     cal.style.cursor = 'grab'
     cal.style.removeProperty('user-select')
 }
-
 cal.addEventListener('mousedown', mouseDownHandler)
-
 
 function hours()
 {
@@ -56,17 +54,24 @@ function hours()
         }
     }
 }
-function add(dayNumber, color, start, end)
+function color()
 {
-    let name = document.createElement("div")
-    document.getElementsByClassName("plan")[dayNumber].appendChild(name)
-    name.className = "note"
-    name.style.backgroundColor = color
-    name.style.top = start * 100 / 24 + 0.5 + "%"
-    name.style.height = (end - start) * 100 / 24 + "%"
+    let color = ['#D0ECE7', '#E8DAEF', '#FADBD8', '#FAE5D3', '#D4E6F1']
+
+    return color[Math.floor(Math.random()*5)]
+}
+function note(dayNumber, start, end)
+{
+    let name = document.createElement('div')
+    document.getElementsByClassName('plan')[dayNumber].appendChild(name)
+    name.className = 'note'
+    name.style.backgroundColor = color()
+    name.style.top = start * 100 / 24 + 0.25 + '%'
+    name.style.height = (end - start) * 100 / 24 + '%'
 }
 function start()
 {
     hours()
+    note(2,2,4)
 }
 
