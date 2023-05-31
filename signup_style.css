@@ -1,0 +1,163 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    text-align: center;
+    font-family: calibri light;
+}
+html, body, main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+::selection
+{
+    background-color: #8098A0;
+}
+section
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+    aspect-ratio: 7/10;
+
+    background-color: #A0CAC1;
+    border-radius: 5%;
+}
+header
+{
+    position: absolute;
+    
+    top: 25%;
+
+    color: white;
+    font-size: 7vh;
+}
+form
+{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 35%;
+
+    width: 80%;
+    height: 40%;
+}
+.inputBox
+{
+    position: absolute;
+
+    width: 80%;
+    height: 20%;
+}
+.inputBox:first-of-type
+{
+    top: 16%;
+}
+.inputBox:last-of-type
+{
+    top: 48%;
+}
+.inputBox input
+{
+    width: 100%;
+    height: 100%;
+    
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+
+    background-color: #A0CAC1;
+    border: 0;
+    border-bottom: white 1px solid;
+    box-shadow: 0 1px #90A9B0;
+}
+.inputBox input:focus
+{
+    outline: 0;
+}
+.inputBox input::placeholder
+{
+    color: white;
+    font-weight: normal;
+}
+#signUpButton
+{
+    position: absolute;
+
+    top: 85%;
+    
+    width: 60%;
+    height: 11%;
+
+    color: #A0CAC1;
+    font-size: 1.5vh;
+    font-weight: bold;
+
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 3px #8098A0;
+
+    user-select: none;
+}
+#signUpButton:active
+{
+    transform: translate(2px, 3px);
+    box-shadow: 0 0;
+}
+.line
+{
+    width: 95%;
+    height: 0.5%;
+
+    background-color: white;
+    opacity: 20%;
+
+    border-radius: 5px;
+    margin: 2.75%;
+
+    z-index: 1;
+}
+#margin
+{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    left: 3%;
+
+    width: 4%;
+    height: 100%;
+}
+.dot
+{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    margin: 125%;
+
+    background-color: black;
+    border-radius: 50%;
+
+    z-index: 2;
+}

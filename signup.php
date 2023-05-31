@@ -4,10 +4,10 @@
 
     <meta charset="utf-8">
     
-    <title> login </title>
+    <title> sign up </title>
 
     <link rel = "short icon" href = "https://cdn-icons-png.flaticon.com/512/3874/3874060.png">
-    <link rel = "stylesheet" href = "login_style.css">
+    <link rel = "stylesheet" href = "signup_style.css">
     <link rel = "stylesheet" href = "fontello/css/fontello.css" type = "text/css" />
 
 </head>
@@ -21,17 +21,15 @@
                 <i class = " icon-user-circle"></i>
             </header>
 
-            <form method = "POST" action = "authentication.php">
+            <form method = "POST" action = "register.php">
                 <div class = "inputBox">
                     <input type = "text" name = "username" placeholder = " username" spellcheck = "false" required />
                 </div>
                 <div class = "inputBox">
                     <input type = "password" name = "password" placeholder = " password" required />
                 </div>
-                <input type = "submit" id = "loginButton" value = "login"/>
+                <input type = "submit" id = "signUpButton" value = "sign up"/>
             </form>
-
-            <button id = "signUp" onclick = "signUp()">sign up</button>
             
             <div id = "margin"></div>
 
@@ -41,7 +39,7 @@
 
     
 
-    <script type = "text/javascript" src = "login_script.js"></script>
+    <script type = "text/javascript" src = "signup_script.js"></script>
 
 </body>
 </html>
