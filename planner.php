@@ -50,10 +50,10 @@
 
     <div id = "sideBox">
 
-        <div class = "side">
+        <!-- <div class = "side">
             <i class = "icon-user-circle-o"></i>
             <span>ACCOUNT</span>
-        </div>
+        </div> -->
         <div class = "side">
             <i class = "icon-doc-text-inv"></i> 
             <span>NOTE</span>
@@ -66,10 +66,10 @@
             <i class = "icon-th-list"></i> 
             <span>TO-DO</span>
         </div>
-        <div class = "side">
+        <!-- <div class = "side">
             <i class = "icon-logout"></i>
             <span>LOG OUT</span>
-        </div>
+        </div> -->
 
     </div>
 
