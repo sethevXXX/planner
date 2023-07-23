@@ -31,7 +31,7 @@ section
     justify-content: center;
     align-items: center;
 
-    height: 60%;
+    height: 75%;
     aspect-ratio: 7/10;
 
     background-color: #A0CAC1;
@@ -44,7 +44,7 @@ header
     top: 25%;
 
     color: white;
-    font-size: 7vh;
+    font-size: 9vh;
 }
 form
 {
@@ -72,7 +72,7 @@ form
 }
 .inputBox:last-of-type
 {
-    top: 48%;
+    top: 49%;
 }
 .inputBox input
 {
@@ -80,7 +80,7 @@ form
     height: 100%;
     
     color: white;
-    font-size: 2.5vh;
+    font-size: 4vh;
     font-weight: bold;
 
     background-color: #A0CAC1;
@@ -107,7 +107,7 @@ form
     height: 11%;
 
     color: #A0CAC1;
-    font-size: 1.5vh;
+    font-size: 2.3vh;
     font-weight: bold;
 
     background-color: white;
